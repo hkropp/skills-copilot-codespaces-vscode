@@ -25,12 +25,6 @@ app.listen(3000, () => {
 // Path: index.js
 // Create a web server
 
-// Import the express library
-const express = require('express');
-
-// Create a new web server
-const app = express();
-
 // Define a route
 app.get('/', (req, res) => {
   res.send('Hello World!');
@@ -46,12 +40,6 @@ app.listen(3000, () => {
 
 // Path: index.js
 // Create a web server
-
-// Import the express library
-const express = require('express');
-
-// Create a new web server
-const app = express();
 
 // Define a route
 app.get('/', (req, res) => {
